@@ -1,24 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 html, body {
+    height: 100vh;
     margin: 0;
-    height: 100%;
 }
 main{
-	height: 100%;
-	background-image: url('../img/img.jpg');
-  background-repeat:no-repeat;
-background-position: center center;
+    background-image: url('../img/img.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
 }
 div {
-	height: 100%;
-	position: relative;
-	top: 35%;
-  
+    position: relative;
+    top: 35%;    
 }
 
 p{
-	vertical-align: center;
-	font-size: 200%;
-	text-align: center;
-	align-content: center;
-	color: #ffffff;
+    vertical-align: center;
+    font-size: 200%;
+    text-align: center;
+    align-content: center;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
 }
